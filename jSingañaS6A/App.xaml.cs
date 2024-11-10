@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Views.estudiantes();
+            MainPage = new NavigationPage(new Views.estudiantes());
         }
     }
 }
